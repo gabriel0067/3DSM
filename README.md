@@ -74,3 +74,9 @@ As principais tecnologias utilizadas neste projeto incluem:
 | Sprint 1 | 24/03/2025   | 15/04/2025    | 🟡 Em Andamento |
 | Sprint 2 | 16/04/2025   | 13/05/2025    | 🔴 Pendente     |
 | Sprint 3 | 14/05/2025   | 10/06/2025    | 🔴 Pendente     |
+
+
+
+
+Get-ExecutionPolicy
+Set-ExecutionPolicy Unrestricted -Scope Process
