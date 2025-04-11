@@ -25,7 +25,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       return res.status(400).json({ message: 'Arquivo está vazio.' });
     }
 
-    const collection = db.collection('nome_da_colecao'); // ajuste o nome aqui
+    const collection = db.collection('dados_meorologicos'); // ajuste o nome aqui
 
     await collection.insertMany(data);
 
